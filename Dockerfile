@@ -1,3 +1,3 @@
-FROM node:12-alpine
+FROM alpine:3.11
 
-RUN apk add --update docker curl bash
+RUN apk add --update nodejs docker curl bash
